@@ -1,0 +1,46 @@
+How to create virtual environment
+
+## Install PIP
+python get-pip.py
+
+# pip version
+python -m pip --version
+
+# pip upgrade 
+python -m pip install --uninstall pip
+
+## Virtual Environment
+python -m pip install virtualenv
+
+# virtualenv creating
+virtualenv env
+
+# virtualenv activate
+\pathto\env\Scripts\activate.bat
+
+## Virtual Environment Wrapper
+pip install virtualenvwrapper-win
+
+# Virtual Environment Wrapper Creating
+mkvirtualenv HelloWold
+
+# Virtual Environment Wrapper Set Project
+setprojectdir .
+
+# Virtual Environment Wrapper Activate
+workon
+
+# Virtual Environment Wrapper Deactivate
+deactivate
+
+## Adding Requirements 
+pip freeze > requirements.txt
+
+## Installing pip resource
+pip install -r requirements.txt
+
+------------------------------------------------------------------
+Extension
+
+jupyter
+prettier
