@@ -26,12 +26,22 @@ mkvirtualenv HelloWold
 
 # Virtual Environment Wrapper Set Project
 setprojectdir .
+setvirtualenvproject 
 
 # Virtual Environment Wrapper Activate
 workon
 
 # Virtual Environment Wrapper Deactivate
 deactivate
+
+# Virtual Environment Wrapper Removing Virtual Env
+rmvirtualenv name_of_your_env
+
+# Virtual Environment Wrapper Copy and Paste (Duplication)
+cpvirtualenv old_virtual_env new_virtual_env
+
+# Virtual Environment Wrapper List Virtual Env that Exist
+lsvirtualenv
 
 ## Adding Requirements 
 pip freeze > requirements.txt
